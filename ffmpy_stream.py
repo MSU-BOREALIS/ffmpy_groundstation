@@ -27,7 +27,7 @@ def continuousStream(Flag):
 		#using rtp://localhost:4000/ as the network stream in vlc
 
 		#the 3rd and 4th arguments are for streamign to streams website.
-		outputs={'rtp://localhost:4000': '-c copy -f rtp_mpegts','rtmp://media.stream.live:1935/live/' + RTMPKEY: '  -r 25 -c copy -loglevel panic -b:v 3M -f flv'}
+		outputs={'rtp://localhost:4000': '-c copy -f rtp_mpegts','rtmp://media.stream.live:1935/live/' + RTMPKEY: ' -r 24 -c copy -loglevel panic -f flv'}
 		
 		#if you want to see the output of ffmpeg take out -loglevel panic
 	)	
